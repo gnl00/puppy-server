@@ -18,7 +18,7 @@ public class SimpleHttpServer implements HttpHandler, AutoCloseable {
 
     final HttpServer httpServer;
     final String host;
-    final int port;;
+    final int port;
 
     public SimpleHttpServer(String host, int port) throws IOException {
         this.host = host;

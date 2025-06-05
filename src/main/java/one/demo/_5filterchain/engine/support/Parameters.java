@@ -1,7 +1,7 @@
 package one.demo._5filterchain.engine.support;
 
-import com.itranswarp.jerrymouse.connector.HttpExchangeRequest;
-import com.itranswarp.jerrymouse.utils.HttpUtils;
+import one.demo._5filterchain.connector.HttpExchangeRequest;
+import one.demo._5filterchain.utils.HttpUtils;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;

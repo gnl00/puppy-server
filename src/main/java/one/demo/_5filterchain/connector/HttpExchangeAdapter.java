@@ -32,6 +32,10 @@ import java.net.URI;
  *                  └───────────────────┘   └────────────┘
  */
 public class HttpExchangeAdapter implements HttpExchangeRequest, HttpExchangeResponse {
+    @Override
+    public byte[] getRequestBody() throws IOException {
+        return this.exchange.getRequestBody().readAllBytes();
+    }
 
     final HttpExchange exchange;
 
@@ -47,6 +51,11 @@ public class HttpExchangeAdapter implements HttpExchangeRequest, HttpExchangeRes
     @Override
     public URI getRequestURI() {
         return this.exchange.getRequestURI();
+    }
+
+    @Override
+    public Headers getRequestHeaders() {
+        return this.exchange.getRequestHeaders();
     }
 
     @Override

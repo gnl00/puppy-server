@@ -8,7 +8,7 @@ import java.io.OutputStream;
 import java.net.URI;
 
 /**
- * 怎么把基于HttpExchange的操作转换为基于HttpServletRequest和HttpServletResponse？
+ * 怎么把基于 HttpExchange 的操作转换为基于 HttpServletRequest 和 HttpServletResponse ？
  * ：使用HttpExchangeAdapter
  *    ┌──────────────────────┐ ┌───────────────────────┐
  *    │  HttpServletRequest  │ │  HttpServletResponse  │

@@ -22,7 +22,7 @@ public class HttpConnector implements HttpHandler, AutoCloseable {
 
     final HttpServer httpServer;
     final String host;
-    final int port;;
+    final int port;
 
     public HttpConnector(String host, int port) throws IOException {
         this.host = host;
