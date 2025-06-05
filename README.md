@@ -1,5 +1,5 @@
 puppy-server
-> a mini tomcat
+> a mini tomcat fork from [jerrymouse] (https://github.com/michaelliao/jerrymouse)
 
 ## structure
 ```text
